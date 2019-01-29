@@ -5,8 +5,12 @@ git checkout master
 ````
 ## Intro to this branch: Data persistence with MongoDB and Mongoose
 This branch is an example API project including routes and models with simple CRUD functionality. Data is persisted to a MongoDB database hosted on mLab. Mongoose is used for object data modelling. There is just one entity: Articles.
-The project is also available on [Glitch](https://glitch.com/edit/#!/api-data-persistence?path=README.md:1:0)
+
+### Glitch.com
+A working example of the project is available on [Glitch](https://glitch.com/edit/#!/api-data-persistence?path=README.md:1:0)
+
 Example endpoint for getting all Articles: [https://api-data-persistence.glitch.me/api/articles](https://api-data-persistence.glitch.me/api/articles)
+
 ## Setup
 ### 1. Installation
 First, install the dependencies:
