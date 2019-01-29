@@ -70,10 +70,6 @@ router.post('/', function(req, res, next) {
     });
 });
 
-router.get('/:article', function(req, res, next) {
-    return res.json({article: req.article.toJSON()});
-});
-
 /**
 * Update an Article. /api/articles/:articleId
 */
