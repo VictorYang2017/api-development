@@ -15,7 +15,7 @@ router.param('article', function(req, res, next, id) {
 });
 
 /**
-* Get all Articles. https://example-api3.glitch.me/api/articles
+* Get all Articles. /api/articles
 */
 router.get('/', function(req, res, next) {
   var query = {};
@@ -52,7 +52,14 @@ router.get('/', function(req, res, next) {
 });
 
 /**
-* Add a new Article. 
+* Get an Article by ID. /api/articles/:articleId
+*/
+router.get('/:article', function (req, res, next) {
+  return res.json({ article: req.article.toJSON() });
+});
+
+/**
+* Add a new Article. /api/articles
 */
 router.post('/', function(req, res, next) {
   //return res.json(req.body)
@@ -68,7 +75,7 @@ router.get('/:article', function(req, res, next) {
 });
 
 /**
-* Update an Article. https://example-api3.glitch.me/api/articles/:articleId
+* Update an Article. /api/articles/:articleId
 */
 router.put('/:article', function(req, res, next) {
       if(typeof req.body.title !== 'undefined'){
@@ -89,7 +96,7 @@ router.put('/:article', function(req, res, next) {
 });
 
 /**
-* Delete an Article. https://example-api3.glitch.me/api/articles/:articleId
+* Delete an Article. /api/articles/:articleId
 */ 
 router.delete('/:article', function(req, res, next) {
       return req.article.remove().then(function(){

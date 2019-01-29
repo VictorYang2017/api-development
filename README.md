@@ -62,6 +62,9 @@ This API exposes the following endpoints.
 GET /api/articles
 ![get request](https://raw.githubusercontent.com/richjava/api-development/data-persistence/assets/images/f8853aa3-f2d6-40d9-b298-b8a4592fc746_get-articles-postman.png "GET Request")
 
+## Get an article
+GET /api/articles/:articleId
+
 ## Add an article
 An Article will have the following fields:
 ````
