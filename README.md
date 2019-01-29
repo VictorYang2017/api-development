@@ -20,8 +20,11 @@ npm install
 ### 2. mLab
 Create a free mLab account and create a database with one table called "articles". Copy the database connection URL for use in Step 3.
 
-> NOTE: To populate the database with articles, use [Postman](https://www.getpostman.com/), or similar, to send a POST request to the API (see the "POST request" section below for how to do this)
+> NOTE: To populate the database with articles, use [Postman](https://www.getpostman.com/), or similar, 
+> to send a POST request to the API (see the "POST request" section below for how to do this)
+
 ![mLab](https://raw.githubusercontent.com/richjava/api-development/data-persistence/assets/images/f8853aa3-f2d6-40d9-b298-b8a4592fc746_mlab-articles.png "mLab")
+
 ### 3. Environment variables
 Create a file named .env in the root of the project. Paste in the following:
 ````
