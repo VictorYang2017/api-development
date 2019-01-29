@@ -14,12 +14,25 @@ First, install the dependencies:
 npm install
 ````
 ### 2. mLab
-Create a free mLab account and create a database with one table called "articles". Copy the database connection URL and put it in this project's .env file as the value of the MONGODB_URI key.
+Create a free mLab account and create a database with one table called "articles". Copy the database connection URL for use in Step 3.
 
 > NOTE: To populate the database with articles, use [Postman](https://www.getpostman.com/), or similar, to send a POST request to the API (see the "POST request" section below for how to do this)
 ![mLab](https://raw.githubusercontent.com/richjava/api-development/data-persistence/assets/images/f8853aa3-f2d6-40d9-b298-b8a4592fc746_mlab-articles.png "mLab")
 ### 3. Environment variables
-In the .env file, add your mLab (or other MongoDB cloud database provider) connection URL:
+Create a file named .env in the root of the project. Paste in the following:
+````
+# Environment Config
+
+# store your secrets and config variables in here
+
+# referenced in server.js with process.env.MONGODB_URI
+
+MONGODB_URI=
+
+# note: .env is a shell file so there can't be spaces around =
+````
+
+In the .env file, paste in your mLab (or other MongoDB cloud database provider) connection URL:
 ````
 MONGODB_URI=<YOUR_CONNECTION_URL>
 ````
