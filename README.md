@@ -14,16 +14,8 @@ First, install the dependencies:
 npm install
 ````
 ### 2. mLab
-Create a free mLab account and create a database with one table called "articles".
-An Article will have the following fields:
-````
-_id: String, (unique identifier - this will be send back in response as "id")
-title: String,
-description: String,
-body: String,
-createdAt: Date,
-updatedAt: Date
-````
+Create a free mLab account and create a database with one table called "articles". Copy the database connection URL and put it in this project's .env file as the value of the MONGODB_URI key.
+
 > NOTE: To populate the database with articles, use [Postman](https://www.getpostman.com/), or similar, to send a POST request to the API (see the "POST request" section below for how to do this)
 ![mLab](https://raw.githubusercontent.com/richjava/api-development/data-persistence/assets/images/f8853aa3-f2d6-40d9-b298-b8a4592fc746_mlab-articles.png "mLab")
 ### 3. Environment variables
@@ -51,6 +43,17 @@ GET /api/articles
 ![get request](https://raw.githubusercontent.com/richjava/api-development/data-persistence/assets/images/f8853aa3-f2d6-40d9-b298-b8a4592fc746_get-articles-postman.png "GET Request")
 
 ## Add an article
+An Article will have the following fields:
+````
+_id: String, (unique identifier - this will be send back in response as "id")
+title: String,
+description: String,
+body: String,
+createdAt: Date,
+updatedAt: Date
+````
+The _id, createdAt and updatedAt fields will be automatically generated on creation of the article, so you will just need to provide the title, description and body fields as request parameters:
+
 POST /api/articles
 ![post request](https://raw.githubusercontent.com/richjava/api-development/data-persistence/assets/images/f8853aa3-f2d6-40d9-b298-b8a4592fc746_post-article-postman.png "POST Request")
 
