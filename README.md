@@ -25,7 +25,7 @@ createdAt: Date,
 updatedAt: Date
 ````
 > NOTE: To populate the database with articles, use [Postman](https://www.getpostman.com/), or similar, to send a POST request to the API (see the "POST request" section below for how to do this)
-![mLab](assets/images/f8853aa3-f2d6-40d9-b298-b8a4592fc746%2Fmlab-articles.PNG?1544760660415 "mLab")
+![mLab](https://raw.githubusercontent.com/richjava/api-development/data-persistence/assets/images/f8853aa3-f2d6-40d9-b298-b8a4592fc746_mlab-articles.png "mLab")
 ### 3. Environment variables
 In the .env file, add your mLab (or other MongoDB cloud database provider) connection URL:
 ````
@@ -45,16 +45,20 @@ As simple as that!
 ## API Endpoints
 This API exposes the following endpoints. 
 > NOTE: Using [Postman](https://www.getpostman.com/) is a convenient way of sending requests to the API, especially when data needs to be sent in the request.
+
 ## Get all articles
 GET /api/articles
-![get request](assets/images/f8853aa3-f2d6-40d9-b298-b8a4592fc746%2Fget-articles-postman.PNG?1544760397893 "GET Request")
+![get request](https://raw.githubusercontent.com/richjava/api-development/data-persistence/assets/images/f8853aa3-f2d6-40d9-b298-b8a4592fc746_get-articles-postman.png "GET Request")
+
 ## Add an article
 POST /api/articles
-![post request](assets/images/f8853aa3-f2d6-40d9-b298-b8a4592fc746%2Fpost-article-postman.PNG?1544760447450 "POST Request")
+![post request](https://raw.githubusercontent.com/richjava/api-development/data-persistence/assets/images/f8853aa3-f2d6-40d9-b298-b8a4592fc746_post-article-postman.png "POST Request")
+
 ## Update an article
 PUT /api/articles/:articleId
-![put request](assets/images/f8853aa3-f2d6-40d9-b298-b8a4592fc746%2Fput-articles-postman.PNG?1544764893789 "PUT Request")
+![put request](https://raw.githubusercontent.com/richjava/api-development/data-persistence/assets/images/f8853aa3-f2d6-40d9-b298-b8a4592fc746_put-articles-postman.png "PUT Request")
+
 ## Remove an article
 DELETE /api/articles/:articleId
-![delete request](assets/images/f8853aa3-f2d6-40d9-b298-b8a4592fc746%2Fdelete-article-postman.PNG?1544765268704 "DELETE Request")
+![delete request](https://raw.githubusercontent.com/richjava/api-development/data-persistence/assets/images/f8853aa3-f2d6-40d9-b298-b8a4592fc746_delete-article-postman.png "DELETE Request")
 Learn more [https://github.com/gothinkster/node-express-realworld-example-app](here)
