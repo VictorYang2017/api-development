@@ -13,7 +13,7 @@ Each branch is a different project related to the subject of API development
 This branch is an example API project including routes and models with simple CRUD functionality. Data is persisted to a 
 MongoDB database hosted on mLab. Mongoose is used for object data modelling. There is just one entity: Articles.
 
-### [relationships: Implemanting relationships between entities](https://github.com/richjava/api-development/tree/relationships)
+### [relationships: Implementing relationships between entities](https://github.com/richjava/api-development/tree/relationships)
 
 This branch is an example API project to demonstrate how to implement relationships between entities in an API using Node.js, Express, MongoDB and Mongoose.
 
