@@ -90,7 +90,7 @@ GET /api/articles/:articleId
 
 ### Add an article
 POST /api/users/:userId/articles
-![post request](https://raw.githubusercontent.com/richjava/api-development/relationships/assets/images/add-article2.PNG "POST Request")
+![post request](https://raw.githubusercontent.com/richjava/api-development/relationships/assets/images/add-article.PNG "POST Request")
 
 ### Update an article
 PUT /api/articles/:articleId
