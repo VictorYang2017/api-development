@@ -78,49 +78,49 @@ This API exposes the following endpoints.
 
 ### Get a all articles
 GET /api/articles
-![get request](https://raw.githubusercontent.com/richjava/api-development/data-persistence/assets/images/get-all-articles.PNG "GET Request")
+![get request](https://raw.githubusercontent.com/richjava/api-development/relationships/assets/images/get-all-articles.PNG "GET Request")
 
 ### Get a user's articles
 GET /api/users/:userId/articles
-![get request](https://raw.githubusercontent.com/richjava/api-development/data-persistence/assets/images/get-articles.PNG "GET Request")
+![get request](https://raw.githubusercontent.com/richjava/api-development/relationships/assets/images/get-articles.PNG "GET Request")
 
 ### Get an article
 GET /api/articles/:articleId
-![get request](https://raw.githubusercontent.com/richjava/api-development/data-persistence/assets/images/get-article2.PNG "GET Request")
+![get request](https://raw.githubusercontent.com/richjava/api-development/relationships/assets/images/get-article2.PNG "GET Request")
 
 ### Add an article
 POST /api/users/:userId/articles
-![post request](https://raw.githubusercontent.com/richjava/api-development/data-persistence/assets/images/add-article2.PNG "POST Request")
+![post request](https://raw.githubusercontent.com/richjava/api-development/relationships/assets/images/add-article2.PNG "POST Request")
 
 ### Update an article
 PUT /api/articles/:articleId
-![put request](https://raw.githubusercontent.com/richjava/api-development/data-persistence/assets/images/update-article2.PNG "PUT Request")
+![put request](https://raw.githubusercontent.com/richjava/api-development/relationships/assets/images/update-article2.PNG "PUT Request")
 
 ### Remove an article
 DELETE /api/articles/:articleId
-![delete request](https://raw.githubusercontent.com/richjava/api-development/data-persistence/assets/images/delete-article2.PNG "DELETE Request")
+![delete request](https://raw.githubusercontent.com/richjava/api-development/relationships/assets/images/delete-article2.PNG "DELETE Request")
 
 ## Users
 
 ### Get all users
 GET /api/users
-![get request](https://raw.githubusercontent.com/richjava/api-development/data-persistence/assets/images/get-users.PNG "GET Request")
+![get request](https://raw.githubusercontent.com/richjava/api-development/relationships/assets/images/get-users.PNG "GET Request")
 
 ### Get a user
 GET /api/users/:userId
-![get request](https://raw.githubusercontent.com/richjava/api-development/data-persistence/assets/images/get-user.PNG "GET Request")
+![get request](https://raw.githubusercontent.com/richjava/api-development/relationships/assets/images/get-user.PNG "GET Request")
 
 ### Add a user
 POST /api/users
-![post request](https://raw.githubusercontent.com/richjava/api-development/data-persistence/assets/images/add-user.PNG "POST Request")
+![post request](https://raw.githubusercontent.com/richjava/api-development/relationships/assets/images/add-user.PNG "POST Request")
 
 ### Update a user
 PUT /api/users/:userId
-![put request](https://raw.githubusercontent.com/richjava/api-development/data-persistence/assets/images/update-user.PNG "PUT Request")
+![put request](https://raw.githubusercontent.com/richjava/api-development/relationships/assets/images/update-user.PNG "PUT Request")
 
 ### Remove a user
 DELETE /api/users/:userId
-![delete request](https://raw.githubusercontent.com/richjava/api-development/data-persistence/assets/images/delete-user.PNG "DELETE Request")
+![delete request](https://raw.githubusercontent.com/richjava/api-development/relationships/assets/images/delete-user.PNG "DELETE Request")
 
 ### Resources
 
