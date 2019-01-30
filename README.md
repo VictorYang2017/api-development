@@ -1,8 +1,11 @@
 # API Development - Relationships between entities
-To learn more about this project and all its branches, switch to the [master branch](https://github.com/richjava/api-development):
+This branch leads on from the branch [data-persistence](https://github.com/richjava/api-development/tree/data-persistence).
+
+To learn more about the API Development project and all its branches, switch to the [master branch](https://github.com/richjava/api-development):
 ````
 git checkout master
 ````
+
 ## Intro to this branch: Relationships between entities
 An example project to demonstrate how to implement relationships between entities in an API using Node.js, Express, MongoDB and Mongoose.
 
@@ -121,46 +124,4 @@ DELETE /api/users/:userId
 
 ### Resources
 
-You can find a more in-depth example of a Node.js/Express API at [https://github.com/gothinkster/node-express-realworld-example-app](https://github.com/gothinkster/node-express-realworld-example-app)
-
-
-
-
-
-
-## API Endpoints
-This API exposes the following endpoints. 
-> NOTE: Using [Postman](https://www.getpostman.com/) is a convenient way of sending requests to the API, especially when data needs to be sent in the request.
-
-## Get all articles
-GET /api/articles
-![get request](https://raw.githubusercontent.com/richjava/api-development/data-persistence/assets/images/f8853aa3-f2d6-40d9-b298-b8a4592fc746_get-articles-postman.png "GET Request")
-
-## Get an article
-GET /api/articles/:articleId
-
-## Add an article
-An Article will have the following fields:
-````
-_id: String, (unique identifier - this will be send back in response as "id")
-title: String,
-description: String,
-body: String,
-createdAt: Date,
-updatedAt: Date
-````
-The _id, createdAt and updatedAt fields will be automatically generated on creation of the article, so you will just need to provide the title, description and body fields as request parameters:
-
-POST /api/articles
-![post request](https://raw.githubusercontent.com/richjava/api-development/data-persistence/assets/images/f8853aa3-f2d6-40d9-b298-b8a4592fc746_post-article-postman.png "POST Request")
-
-## Update an article
-PUT /api/articles/:articleId
-![put request](https://raw.githubusercontent.com/richjava/api-development/data-persistence/assets/images/f8853aa3-f2d6-40d9-b298-b8a4592fc746_put-articles-postman.png "PUT Request")
-
-## Remove an article
-DELETE /api/articles/:articleId
-![delete request](https://raw.githubusercontent.com/richjava/api-development/data-persistence/assets/images/f8853aa3-f2d6-40d9-b298-b8a4592fc746_delete-article-postman.png "DELETE Request")
-
-### Resources
 You can find a more in-depth example of a Node.js/Express API at [https://github.com/gothinkster/node-express-realworld-example-app](https://github.com/gothinkster/node-express-realworld-example-app)
