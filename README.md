@@ -54,6 +54,8 @@ As simple as that!
 This API exposes the following endpoints. 
 > NOTE: Using [Postman](https://www.getpostman.com/) is a convenient way of sending requests to the API, especially when data needs to be sent in the request.
 
+> You can import the JSON file in this branch's assets/json folder into Postman to get started quickly.
+
 ## Get all articles
 GET /api/articles
 ![get request](https://raw.githubusercontent.com/richjava/api-development/data-persistence/assets/images/f8853aa3-f2d6-40d9-b298-b8a4592fc746_get-articles-postman.png "GET Request")
