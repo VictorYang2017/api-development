@@ -12,7 +12,7 @@ var UserSchema = new mongoose.Schema({
     match: [/\S+@\S+\.\S+/, "is invalid"],
     index: true
   }, 
-  articles: [{ type: Schema.Types.ObjectId, ref: 'Article' }]
+  articles: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Article' }]
 }, {timestamps: true});
 
 UserSchema.methods.toJSON = function(){

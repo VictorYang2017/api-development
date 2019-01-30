@@ -52,7 +52,7 @@ router.get('/', function(req, res, next) {
 });
 
 /**
-* Get an User by ID. /api/users/:userId
+* Get a User by ID. /api/users/:userId
 */
 router.get('/:user', function (req, res, next) {
   return res.json({ user: req.user.toJSON() });
@@ -70,7 +70,7 @@ router.post('/', function(req, res, next) {
 });
 
 /**
-* Update an User. /api/users/:userId
+* Update a User. /api/users/:userId
 */
 router.put('/:user', function(req, res, next) {
       if(typeof req.body.firstName !== 'undefined'){
@@ -93,7 +93,7 @@ router.put('/:user', function(req, res, next) {
 });
 
 /**
-* Delete an User. /api/users/:userId
+* Delete a User. /api/users/:userId
 */ 
 router.delete('/:user', function(req, res, next) {
       return req.user.remove().then(function(){
