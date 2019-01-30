@@ -1,10 +1,17 @@
 # API Development - Relationships
-To learn more about this project and all its branches, switch to the [master branch](https://github.com/richjava/api-development):
+To learn more about the API Development project and all its branches, switch to the [master branch](https://github.com/richjava/api-development):
 ````
 git checkout master
 ````
-## Intro to this branch: Object relationships with MongoDB and Mongoose
-This branch is an example project that shows how to implement API functionality for multiple objects/entities.
+## Intro to this branch: Data Persistence
+This branch is an example project that shows how to implement a basic API with routes, models and simple CRUD functionality. Data is persisted to a MongoDB database hosted on mLab. Mongoose is used for object data modelling. 
+
+There is just one entity: Articles.
+
+### Glitch.com
+The project for this branch is hosted on Glitch [here](https://glitch.com/edit/#!/api-data-persistence?path=README.md:64:199).
+
+Example endpoint for getting all Articles: [https://api-data-persistence.glitch.me/api/articles](https://api-data-persistence.glitch.me/api/articles)
 
 
 ## Setup
